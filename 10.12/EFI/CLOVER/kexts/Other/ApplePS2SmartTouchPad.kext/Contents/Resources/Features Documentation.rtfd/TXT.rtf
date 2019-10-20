@@ -1,0 +1,822 @@
+{\rtf1\ansi\ansicpg936\deff0\nouicompat{\fonttbl{\f0\fswiss\fcharset0 Helvetica;}{\f1\fnil\fcharset0 TrebuchetMS;}{\f2\fnil\fcharset134 PingFangSC-Regular;}{\f3\fswiss\fprq2\fcharset0 Helvetica;}{\f4\fmodern\fprq1\fcharset128 MS Gothic;}{\f5\fswiss\fprq2 Helvetica;}{\f6\fnil\fprq2\fcharset134 \'b5\'c8\'cf\'df;}{\f7\fnil TrebuchetMS;}{\f8\fmodern\fcharset0 Courier-Bold;}{\f9\fmodern\fcharset0 Courier;}{\f10\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;\red15\green112\blue1;\red30\green30\blue30;\red251\green0\blue7;\red14\green110\blue109;\red23\green26\blue28;\red0\green0\blue194;\red160\green17\blue26;\red17\green90\blue209;\red107\green0\blue109;\red82\green0\blue83;\red83\green85\blue2;\red11\green84\blue83;\red115\green0\blue2;}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard {\f0\fs24\lang2052{\field{\*\fldinst{HYPERLINK "http://www.flickr.com/photos/93076670@N04/8524384148/"}}{\fldrslt{\ul\cf1 8524384148_7da070dae6_c.jpg \'ac}}}}\cf2\ul\b\f1\fs28\par
+Following are the features supported by the Smart touchpad driver in Mac OSX:\cf3\ulnone\b0\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\tab 1\tab\kerning0 Mouse mode\par
+\kerning1\tab 2\tab\kerning0 Tapping\par
+\kerning1\tab 3\tab\kerning0 Dragging\par
+\kerning1\tab 4\tab\kerning0 Scrolling\par
+\kerning1\tab 5\tab\kerning0 Swipes\par
+\kerning1\tab 6\tab\kerning0 Zoom\par
+\kerning1\tab 7\tab\kerning0 Rotation\par
+\kerning1\tab 8\tab\kerning0 Clicking and Fingers Press\~\par
+\kerning1\tab 9\tab\kerning0 Features Toggle\par
+\kerning1\tab 10\tab\kerning0 Accidental inputs prevention and Palm detection\par
+\kerning1\tab 11\tab\kerning0 Apple Trackpad Prefpane support\par
+\kerning1\tab 12\tab\kerning0 Customization of features\par
+\kerning1\tab 13\tab\kerning0 Enhanced Keyboard support\par
+\kerning1\tab 14\tab\kerning0 Support for Asus Keyboard backlight with Idle Auto on/off\par
+\kerning1\tab 15\tab\kerning0 Prefpane for controlling touchpad features \b [coming later as its got my least prority]\b0\par
+
+\pard\fi-56\li56\ri776\sa56\b\par
+
+\pard\b0\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf4\ul\b Supported OS X Action values to config gestures:\cf3\ulnone\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf5 0 : To disable the gesture\cf3\par
+{\pntext\f10\'B7\tab}\cf5 1 - Applications Switch\cf3\par
+{\pntext\f10\'B7\tab}\cf5 2 - App close\cf3\par
+{\pntext\f10\'B7\tab}\cf5 3 - Launchpad\cf3\par
+{\pntext\f10\'B7\tab}\cf5 4 - Mission control\cf3\par
+{\pntext\f10\'B7\tab}\cf5 5 - Dashboard\cf3\par
+{\pntext\f10\'B7\tab}\cf5 6 - Left Space/Full Screen apps switch\cf3\par
+{\pntext\f10\'B7\tab}\cf5 7 - Right Space/Full Screen apps switch\cf3\par
+{\pntext\f10\'B7\tab}\cf5 8 - Application windows\cf3\par
+{\pntext\f10\'B7\tab}\cf5 9 - Minimize app\cf3\par
+{\pntext\f10\'B7\tab}\cf5 10 - Toggle Full screen Switch\cf3\par
+{\pntext\f10\'B7\tab}\cf5 11 - Backward\~\cf3\par
+{\pntext\f10\'B7\tab}\cf5 12 - Forward\~\cf3\par
+{\pntext\f10\'B7\tab}\cf5 13 - Desktop\cf3\par
+{\pntext\f10\'B7\tab}\cf5 14 - Notification center (keyboard shortcut)\cf3\par
+{\pntext\f10\'B7\tab}\cf5 15 - Show Properties/Info\cf3\par
+{\pntext\f10\'B7\tab}\cf5 16 - Hide/Show Dock\cf3\par
+{\pntext\f10\'B7\tab}\cf5 17 - Notification center (soft mode)\cf3\par
+{\pntext\f10\'B7\tab}\cf5 18 - Zoom reset (works in Photos, Browser etc., where it\~supports)\cf3\par
+{\pntext\f10\'B7\tab}\cf5 19 - Finder\cf3\par
+{\pntext\f10\'B7\tab}\cf5 20 - Force Quit\cf3\par
+{\pntext\f10\'B7\tab}\cf5 21 - Right click\cf3\par
+{\pntext\f10\'B7\tab}\cf5 22 - Middle click\cf3\par
+{\pntext\f10\'B7\tab}\cf5 23 - 34 as F13 - F24\par
+{\pntext\f10\'B7\tab}35 - Left click\par
+
+\pard\tx220\tx720\par
+
+\pard\nowidctlpar\sl320\slmult0\cf6\f2\lang1033\'cd\'a8\'b9\'fd\f3\ldblquote\f2\'d0\'e8\'d2\'aa\'d4\'da\'bc\'fc\'c5\'cc\'bf\'ec\'bd\'dd\'bc\'fc\'b4\'a6\'c5\'e4\'d6\'c3\f3\rdblquote EMlyDinEsH\f2\'d2\'e2\'ce\'b6\'d7\'c5\'b5\'b1\'c4\'e3\'d6\'c6\'d7\'f7\'d2\'bb\'b8\'f6\'c9\'e8\'d6\'c3\'ce\'aa\'b4\'f2\'bf\'aa\'c6\'f4\'b6\'af\'b0\'e5\'b5\'c4\'b4\'a5\'bf\'d8\'b0\'e5\'ca\'d6\'ca\'c6\'ca\'b1\'a3\'a8\'c0\'fd\'c8\'e7\'a3\'a9\'cb\'fc\'ca\'b5\'bc\'ca\'c9\'cf\'b2\'a2\'b2\'bb\'d6\'b1\'bd\'d3\'b4\'f2\'bf\'aa\'cb\'fc\'a3\'ac\'b6\'f8\'d6\'bb\'ca\'c7\'d7\'f6\'d2\'bb\'b8\'f6\'bc\'fc\'c5\'cc\'bf\'ec\'bd\'dd\'bc\'fc\'a3\'ac\'c4\'e3\'b1\'d8\'d0\'eb\'d4\'da\'cf\'b5\'cd\'b3\'ca\'d7\'d1\'a1\'cf\'ee\'d6\'d0\'ca\'b9\'d3\'c3\'c6\'f4\'b6\'af\'b0\'e5\'c6\'a5\'c5\'e4\'c8\'b7\'c7\'d0\'b5\'c4\'bc\'fc\'c5\'cc\'bf\'ec\'bd\'dd\'bc\'fc\'a3\'a8\'c8\'e7\'b9\'fb\'d4\'da\'cf\'b5\'cd\'b3\'ca\'d7\'d1\'a1\'cf\'ee\'d6\'d0\'ce\'aa\'c6\'f4\'b6\'af\'b0\'e5\'c9\'e8\'d6\'c3\'c1\'cb\'b2\'bb\'cd\'ac\'b5\'c4\'bf\'ec\'bd\'dd\'b7\'bd\'ca\'bd\'a3\'ac\'d4\'f2\'ca\'d6\'ca\'c6\'b2\'bb\'c6\'f0\'d7\'f7\'d3\'c3\'a3\'a9\'a3\'ac\'b5\'ab\'ce\'c4\'b5\'b5\'ce\'b4\'b8\'fc\'d0\'c2\'b5\'bd\f3 v4.7\f2\'a3\'a8\'d5\'fd\'c8\'e7\'c4\'fa\'d4\'da\'b2\'bf\'b7\'d6\'d6\'d0\'bf\'b4\'b5\'bd\'b5\'c4\'c4\'c7\'d1\'f9\'a3\'a9\'d2\'fd\'d3\'c3\'b2\'a2\'c7\'d2\'c3\'bb\'d3\'d0\'cc\'e1\'b5\'bd\'cb\'fb\'c9\'e8\'d6\'c3\'b5\'c4\'d5\'e2\'d0\'a9\'bf\'ec\'bd\'dd\'b7\'bd\'ca\'bd\'ca\'b5\'bc\'ca\'c9\'cf\'ca\'c7\'ca\'b2\'c3\'b4\'a3\'a8\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'ca\'c7\'ce\'a8\'d2\'bb\'cc\'e1\'b5\'bd\'b5\'c4\'b5\'ab\'ca\'c7\'b4\'ed\'ce\'f3\'b5\'c4\'a3\'a9\'a3\'ac\'ce\'d2\'b2\'bb\'b5\'c3\'b2\'bb\'d3\'c3\'b5\'da\'c8\'fd\'b7\'bd\'c8\'ed\'bc\'fe\'c0\'b4\'bd\'e2\'be\'f6\'d5\'e2\'d0\'a9\'ce\'ca\'cc\'e2\'a3\'ac\'b5\'b1\'ce\'d2\'d6\'c6\'d7\'f7\'c1\'cb\'ca\'d6\'ca\'c6\'a3\'a8\f3 ukelele\f2\'a3\'a9\'a1\'a3\f4\line\f2\'bd\'ab\'bf\'ec\'bd\'dd\'bc\'fc\'c9\'e8\'d6\'c3\'ce\'aa\'c8\'e7\'cf\'c2\'b0\'b4\'bc\'fc\'a3\'ac\'c7\'fd\'b6\'af\'bb\'e1\'c9\'fa\'d0\'a7\'a3\'a8\f3 QWERTY ISO\f2\'b2\'bc\'be\'d6\'a3\'a9\'a3\'ba\f3\par
+
+\pard\nowidctlpar\fi-720\li720\tx220\tx720\f5\bullet\f3\tab 1\cf5\f1  - \f6\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'c7\'d0\'bb\'bb\'a3\'ba\'c3\'fc\'c1\'ee\f1 +\ldblquote\f6\'d7\'f3\'bc\'fd\'cd\'b7\f1\rdblquote\par
+\f7\bullet\f1\tab 2 - App close\f6\'a3\'ba\f1 command +\ldblquote right arrow\rdblquote\par
+\f7\bullet\f1\tab 3 - Launchpad\f6\'a3\'ba\f1 control + shift + command + L.\f4\par
+\f7\bullet\f1\tab 4 - \f6\'c8\'ce\'ce\'f1\'bf\'d8\'d6\'c6\'a3\'ba\'bf\'d8\'d6\'c6\f1 +\f6\'cf\'f2\'c9\'cf\f4\par
+\f7\bullet\f1\tab 5 - \f6\'d2\'c7\'b1\'ed\'b0\'e5\'a3\'ba\f1 F12\f4\par
+\f7\bullet\f1\tab 6 - \f6\'d7\'f3\'b2\'e0\'bf\'d5\'bc\'e4\f1 /\f6\'c8\'ab\'c6\'c1\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'c7\'d0\'bb\'bb\'a3\'ba\'bf\'d8\'d6\'c6\f1 +\ldblquote\f6\'d7\'f3\'bc\'fd\'cd\'b7\f1\rdblquote\par
+\f7\bullet\f1\tab 7 - \f6\'d3\'d2\'b2\'e0\'bf\'d5\'bc\'e4\f1 /\f6\'c8\'ab\'c6\'c1\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'c7\'d0\'bb\'bb\'a3\'ba\'bf\'d8\'d6\'c6\f1 +\ldblquote\f6\'d3\'d2\'bc\'fd\'cd\'b7\f1\rdblquote\par
+\f7\bullet\f1\tab 8 - \f6\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'b4\'b0\'bf\'da\'a3\'ba\f1 control + shift + command + A.\par
+\f7\bullet\f1\tab 9 - \f6\'d7\'ee\'d0\'a1\'bb\'af\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'a3\'ba\'b0\'b4\'d4\'a4\'c6\'da\'b9\'a4\'d7\'f7\'a3\'a8\'c3\'fc\'c1\'ee\f1 + M\f6\'a3\'a9\f1\par
+\f7\bullet\f1\tab 10 - \f6\'c7\'d0\'bb\'bb\'c8\'ab\'c6\'c1\'c7\'d0\'bb\'bb\'a3\'ba\f1 alt +\f6\'c3\'fc\'c1\'ee\f1 + F.\par
+\f7\bullet\f1\tab 11 - \f6\'ba\'f3\'cd\'cb\'a3\'ba\f1 alt + command +\ldblquote [\rdblquote\par
+\f7\bullet\f1\tab 12 - \f6\'c7\'b0\'bd\'f8\'a3\'ba\f1 alt +\f6\'c3\'fc\'c1\'ee\f1 +\ldblquote ]\rdblquote\par
+\f7\bullet\f1\tab 13 - \f6\'d7\'c0\'c3\'e6\'a3\'ba\f1 F11\par
+\f7\bullet\f1\tab 14 - \f6\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'a3\'a8\'bc\'fc\'c5\'cc\'bf\'ec\'bd\'dd\'bc\'fc\'a3\'a9\'a3\'ba\'bf\'d8\'d6\'c6\f1 +\f6\'d2\'c6\'ce\'bb\f1 +\f6\'c3\'fc\'c1\'ee\f1 + N\f6\'a3\'a8\'b6\'f8\'b2\'bb\'ca\'c7\'c3\'fc\'c1\'ee\f1 + shift + N\f6\'a3\'ac\'c8\'e7\'ce\'c4\'b5\'b5\'d6\'d0\'cb\'f9\'ca\'f6\'a3\'a9\f1\par
+\f7\bullet\f1\tab 15 - \f6\'cf\'d4\'ca\'be\'ca\'f4\'d0\'d4\f1 /\f6\'d0\'c5\'cf\'a2\'a3\'ba\'b0\'b4\'d4\'a4\'c6\'da\'b9\'a4\'d7\'f7\'a3\'a8\'c3\'fc\'c1\'ee\f1 + i\f6\'a3\'a9\f1\par
+\f7\bullet\f1\tab 16 - \f6\'d2\'fe\'b2\'d8\f1 /\f6\'cf\'d4\'ca\'be\f1 Dock\f6\'a3\'ba\f1 alt + command + D\f6\'a3\'a8\'b5\'ab\'cb\'fc\'cb\'c6\'ba\'f5\'b2\'bb\'c6\'f0\'d7\'f7\'d3\'c3\'a3\'a9\f1\par
+\f7\bullet\f1\tab 17 - \f6\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'a3\'a8\'c8\'ed\'c4\'a3\'ca\'bd\'a3\'a9\'a3\'ba\'b2\'bb\'c6\'f0\'d7\'f7\'d3\'c3\f1\par
+\f7\bullet\f1\tab 18 - \f6\'cb\'f5\'b7\'c5\'d6\'d8\'d6\'c3\'a3\'ba\'b0\'b4\'d4\'a4\'c6\'da\'b9\'a4\'d7\'f7\'a3\'a8\'c3\'fc\'c1\'ee\f1 +\f6\'c1\'e3\'a3\'a9\f1\par
+\f7\bullet\f1\tab 19 - Finder\f6\'a3\'ba\f1 alt + command +\f6\'bf\'d5\'bc\'e4\'a3\'a8\'b5\'ab\'ce\'d2\'b2\'bb\'d3\'a6\'b8\'c3\'d7\'f6\'cb\'fc\'d3\'a6\'b8\'c3\'d7\'f6\'ca\'b2\'c3\'b4\'a3\'ac\'cb\'c6\'ba\'f5\'b2\'bb\'c6\'f0\'d7\'f7\'d3\'c3\'a3\'a9\f1\par
+\f7\bullet\f1\tab 20 - \f6\'c7\'bf\'d6\'c6\'cd\'cb\'b3\'f6\'a3\'ba\'b0\'b4\'d4\'a4\'c6\'da\'b9\'a4\'d7\'f7\'a3\'a8\f1 alt + command + esc\f6\'a3\'a9\f1\par
+\f7\bullet\f1\tab 21 - \f6\'d3\'d2\'bc\'fc\'b5\'a5\'bb\'f7\f1  \f6\'a3\'ba\'b2\'bb\'c4\'dc\'d7\'f7\'ce\'aa\'d3\'d2\'bc\'fc\'b5\'a5\'bb\'f7\'a3\'ac\'cf\'e0\'b7\'b4\'a3\'ac\'cb\'fc\'d7\'f7\'ce\'aa\f1\ldblquote 20 - \f6\'c7\'bf\'d6\'c6\'cd\'cb\'b3\'f6\f1\rdblquote\f6\'a3\'a8\f1 alt + command + esc\f6\'a3\'a9\f1\par
+\f7\bullet\f1\tab 22 - \f6\'d6\'d0\'bc\'e4\'b5\'e3\'bb\'f7\'a3\'ba\'b2\'bb\'c6\'f0\'d7\'f7\'d3\'c3\f1\par
+\f7\bullet\f1\tab 33 - \f6\'d3\'a6\'b8\'c3\'d7\'f7\'ce\'aa\f1\ldblquote F23\rdblquote\f6\'b6\'f8\'b2\'bb\'ca\'c7\'d5\'e6\'d5\'fd\'b5\'c4\'d3\'d2\'bc\'fc\'b5\'a5\'bb\'f7\'a3\'ac\'b5\'ab\'d6\'bb\'d3\'d0\'b5\'b1\'c9\'e8\'d6\'c3\'ce\'aa\'b5\'e3\'bb\'f7\'ca\'d6\'ca\'c6\'ca\'b1\f1\par
+\f7\bullet\f1\tab 34 - \f6\'d3\'a6\'b8\'c3\'d7\'f7\'ce\'aa\f1\ldblquote F24\rdblquote\f6\'b6\'f8\'b2\'bb\'ca\'c7\'d5\'e6\'d5\'fd\'b5\'c4\'d6\'d0\'bc\'e4\'b5\'e3\'bb\'f7\'a3\'ac\'b5\'ab\'d6\'bb\'d3\'d0\'b5\'b1\'c9\'e8\'d6\'c3\'ce\'aa\'b5\'e3\'bb\'f7\'ca\'d6\'ca\'c6\f1\par
+\f7\bullet\f1\tab 35 - \f6\'d7\'f3\'bc\'fc\'b5\'a5\'bb\'f7\'a3\'ba\'b0\'b4\'d4\'a4\'c6\'da\'b9\'a4\'d7\'f7\'b5\'ab\'bd\'f6\'d4\'da\'c9\'e8\'d6\'c3\'ce\'aa\'b5\'e3\'bb\'f7\'ca\'d6\'ca\'c6\'ca\'b1\f4\line\cf6\f3\par
+
+\pard\nowidctlpar\sl320\slmult0\f2\'bd\'ab\'bf\'ec\'bd\'dd\'bc\'fc\'c9\'e8\'d6\'c3\'ce\'aa\'c8\'e7\'cf\'c2\'b0\'b4\'bc\'fc\'a3\'ac\'c7\'fd\'b6\'af\'bb\'e1\'c9\'fa\'d0\'a7\f3 (QWERTY ISO layout):\par
+
+\pard\nowidctlpar\fi-720\li720\tx220\tx720\cf5\f7\bullet\f1\tab 1 - Applications Switch: command+"left arrow"\par
+\f7\bullet\f1\tab 2 - App close: command+"right arrow"\par
+\f7\bullet\f1\tab 3 - Launchpad: control+shift+command+L\f4\par
+\f7\bullet\f1\tab 4 - Mission control: control+up\par
+\f7\bullet\f1\tab 5 - Dashboard: F12\par
+\f7\bullet\f1\tab 6 - Left Space/Full Screen apps switch: control+"left arrow"\par
+\f7\bullet\f1\tab 7 - Right Space/Full Screen apps switch: control+"right arrow"\par
+\f7\bullet\f1\tab 8 - Application window: control+shift+command+A\par
+\f7\bullet\f1\tab 9 - Minimize app: works as expected (command+M)\par
+\f7\bullet\f1\tab 10 - Toggle Full screen Switch: alt+command+F\par
+\f7\bullet\f1\tab 11 - Backward: alt+command+"["\par
+\f7\bullet\f1\tab 12 - Forward: alt+command+"]"\par
+\f7\bullet\f1\tab 13 - Desktop: F11\par
+\f7\bullet\f1\tab 14 - Notification center (keyboard shortcut): control+shift+command+N (and not command+shift+N as stated in the documentation)\par
+\f7\bullet\f1\tab 15 - Show Properties/Info: works as expected (command+i)\par
+\f7\bullet\f1\tab 16 - Hide/Show Dock: alt+command+D (but it doesn't seem to work)\par
+\f7\bullet\f1\tab 17 - Notification center (soft mode): doesn't work\par
+\f7\bullet\f1\tab 18 - Zoom reset: works as expected (command+zero)\par
+\f7\bullet\f1\tab 19 - Finder: alt+command+space (but I'm not shure what it should be doing, doesn't seem to work)\par
+\f7\bullet\f1\tab 20 - Force Quit: work as expected (alt+command+esc)\par
+\f7\bullet\f1\tab 21 - Right click: doesn't work as right click, instead it works as "20 - Force Quit" (alt+command+esc)\par
+\f7\bullet\f1\tab 22 - Middle click: doesn't work\par
+\f7\bullet\f1\tab 33 - should work as "F23" instead it's the real right click, but only when set to a tapping gesture\par
+\f7\bullet\f1\tab 34 - should work as "F24" instead it's the real middle click, but only when set to a tapping gesture\par
+\f7\bullet\f1\tab 35 - Left click: work as expected but only when set to a tapping gesture\cf6\f3\par
+
+\pard\nowidctlpar\sl320\slmult0 The documentation really need to be updated, otherwise the kext cannot be configurated properly\par
+
+\pard\nowidctlpar\qj\cf0\kerning2\f6\fs21\par
+
+\pard\tx566\cf5\kerning0\f1\fs28\lang2052\par
+
+\pard\tx560\par
+
+\pard\cf7\b 1. MOUSE MODE:\cf3\b0\par
+\~\par
+Enables click-pad and touchpad with physical buttons to act like a mouse with three left, right and middle buttons and pointing the cursor.\~\par
+\~\par
+\cf8\b Note: Click-pads\cf3\b0\par
+Click-pad has only single button under the whole touch area. So, the touchpad bottom area is divided into three\~parts for the buttons left, right and middle.\par
+\~\par
+\cf8\b BUTTONS:\cf3\b0\par
+\b Left button\~ \~ \~ :\b0\~ \~Performs Left click\par
+\b Right button\~ \~ : \~\b0\~Performs Right click\par
+\b Middle button\~\~: \~\~\b0 Performs Middle click\par
+You can configure middle button for different actions from Mission Control in\~\b\i "Keyboard and Mouse Shortcuts" \b0\i0 as shown in below picture.\par
+\~\par
+{{\field{\*\fldinst{HYPERLINK "http://www.flickr.com/photos/93076670@N04/11493706554/"}}{\fldrslt{\ul\cf1\cf9 11493706554_130fa58d5f_n.jpg \'ac}}}}\f1\fs28\par
+\~\par
+\cf8\b For\~Middle click:\cf3\b0\par
+\ul\b Click-pad\b0 :\ulnone  Press and click at middle of the touchpad button area\par
+\ul\b Touchpad with physical left and right buttons\b0 :\ulnone  Click both left and right buttons same time\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can control buttons with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Buttons\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 ClickpadVirtualButtons (Yes/No) :\b0  Enables virtual buttons for click-pads by dividng the bottom area into three parts, otherwise only one button "Left" will work default.\par
+\kerning1\b\tab 2\tab\kerning0 ClickpadVirtualButtonsArea (Value 0 -100) :\b0  Sets the % of touchpad area (bottom) used by the virtual buttons.\par
+\kerning1\b\tab 3\tab\kerning0 DisablePhysicalClicks (Yes/No) :\b0  Enable/Disable physical buttons.\par
+\kerning1\b\tab 4\tab\kerning0 VirtualMiddleButton (Yes/No) :\b0  Enable/Disable virtual middle button for click-pad.\par
+\kerning1\b\tab 5\tab\kerning0 2FingersClickAction (Value 0 - 23) : \b0 Configures the gesture 2 fingers button click action from supported actions list in click-pad.\par
+
+\pard\~\par
+\cf8\b POINTING:\cf3\b0\par
+This driver tries to provide extensive control over pointing the cursor to give a smooth feel in acceleration. Following are the plist options that controls the pointing.\~Located at \b IOKitPersonalities->Smart-Pad->Preferences->Pointing\b0  in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 AccelerationPrefValue (Value 0 - 4)\~:\b0  These are acceleration tables used by apple for their devices. Each table has different acceleration curves, so try them and choose which its for you.\par
+\kerning1\b\tab 2\tab\kerning0 PointerCustomAcceleration (Value 0 - 20): \b0 This value controls the dispatch rate of the pointer position and by doing so its can alter the acceleration level. Increasing the value will reduce acceleration and decreasing will speed up.\par
+\kerning1\b\tab 3\tab\kerning0 PointerResolution (Value 100 - 3000) :\b0  This is the resolution of the pointer used by OS X. Increasing the value will smooth the acceleration by reducing its speed and decreasing will speed up but reduces smoothness.\par
+\kerning1\b\tab 4\tab\kerning0 PointerSmoothLevel (Value 1 - 20) :\b0  Controls the smoothness of the pointing. Increasing the value will smooth the acceleration by reducing its speed and decreasing will speed up but reduces smoothness.\par
+\kerning1\b\tab 5\tab\kerning0 PointerSmoothSamples (Value 0 - 10) :\b0  Number of samples to used to smooth the pointing.\~Increasing the value will smooth the acceleration by reducing its speed and decreasing will speed up but reduces smoothness.\par
+\kerning1\b\tab 6\tab\kerning0 EnhancedAccelerationLevel (Value 0 - 15) :\b0  It extends the acceleration of the pointer for speeds of the pointing higher that Minimum delta key.\par
+\kerning1\b\tab 7\tab\kerning0 EnhancedAccelerationMinDelta (Value 0 - 255) :\b0\~It sets the minimum delta needed to apply extend acceleration.\par
+\kerning1\b\tab 8\tab\kerning0 SlowMoveNoiseMaxDelta (Value 0 - 30) :\b0  Some touchpad's generate noise (random x and y delta) during slow moves which causes the pointer to move like a wave. Use this value to ignore those noise data.\par
+\kerning1\b\tab 9\tab\kerning0 Sensitivity (Value 0 - 255) :\b0  Sets the sensitivity (Pressure or Z value) of the touchpad.\par
+
+\pard\tx560\cf5\par
+
+\pard\fi-56\li56\ri776\sa56\cf7\b\fs32 2. TAPPING:\cf3\b0\fs28\par
+
+\pard Need to enable the option \b "Clicking"\b0  in Trackpad prefpane from System preferences for taps to work.\par
+\~\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Single finger tap:\cf3\b0\par
+
+\pard\fi-800\li800\ri776\sa56\cf2 Single tap :\~\cf3 Performs single click\par
+\cf2 Double tap:\~\cf3 Performs double click\par
+\cf2 Triple tap \~:\~\cf3 Performs paragraph selection in texts\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Two fingers tap:\cf3\b0\par
+
+\pard\fi-800\li800\ri776\sa56\cf2 Single tap :\cf3  Acts as middle click button action by default. It can configured to other actions by editing plist with supported gesture actions value.\~\par
+\cf2 Double tap:\cf3\~Does zoom in and zoom out when \b "MulFingDoubleTaps"\b0  is enabled in plist.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Three fingers tap:\~\cf3\b0\par
+
+\pard\fi-800\li800\ri776\sa56\cf2 Single tap \cf3 : Acts as right click button action by default. It can configured to other actions by editing plist with supported gesture actions value.\~\par
+\cf2 Double tap:\cf3\~Shows application window when \b "MulFingDoubleTaps"\b0  is enabled in plist.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Four fingers tap\cf3\i :\b0\i0\par
+
+\pard\fi-800\li800\ri776\sa56\cf2 Single tap \~\cf3 : Opens Mission control by default. It can be configured to other actions by editing plist with supported gesture actions value.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Five fingers tap\cf3\i :\~\b0\i0\par
+
+\pard\fi-800\li800\ri776\sa56\cf2 Single tap \~\cf3 : Opens Dashboard by default. It can be configured to other actions by editing plist with supported gesture actions\~value.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Corner taps:\cf3\b0\par
+
+\pard Need to enable the feature\~\b "Hot Corners"\b0  from Mission Control and configure it. You can Tap on any of the four corners to trigger the functions configured to each hot corner.\~\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can configure taps with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Tapping\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 2FingersTapAction (Value 0 -23) :\b0\~Sets the action to be triggered on two fingers tap.\~\par
+\kerning1\b\tab 2\tab\kerning0 3FingersTapAction\~(Value 0 -23) :\b0\~Sets the action to be triggered on three fingers tap.\par
+\kerning1\b\tab 3\tab\kerning0 4FingersTapAction\~(Value 0 -23) :\b0\~Sets the action to be triggered on four fingers tap.\par
+\kerning1\b\tab 4\tab\kerning0 5FingersTapAction\~(Value 0 -23) :\b0\~Sets the action to be triggered on five fingers tap.\par
+\kerning1\b\tab 5\tab\kerning0 1FTapPressure (Value 0 - 255) :\b0  Sets the pressure needed to detect the touch as tap.\par
+\kerning1\b\tab 6\tab\kerning0 1FClickTimeOut (Value 0 - 3000) :\b0  Sets the max time (in milli sec) used to detect the touch as click.\par
+\kerning1\b\tab 7\tab\kerning0 12TapTimeOut (Value 0 - 3000) :\b0  Sets the max time (in milli sec) used to detect the touch as Corner or 2 fingers tap.\par
+\kerning1\b\tab 8\tab\kerning0 MulFingTapTimeOut (Value 0 - 3000) :\b0  Sets the max time (in milli sec) used to detect the touch as \~3-5 fingers tap.\par
+\kerning1\b\tab 9\tab\kerning0 TapMaxDelta (Value 0 - 200) :\b0  Sets the max delta (movement) allowed in detecting the touch as single finger tap.\par
+\kerning1\b\tab 10\tab\kerning0 MulFingTapMaxDelta (Value 0 - 200) :\b0  Sets the max delta (movement) allowed in detecting the touch as multi finger tap.\par
+\kerning1\b\tab 11\tab\kerning0 MulFingDoubleTaps (Yes/No) :\b0  Enables/Disables multi finger double taps.\par
+\kerning1\b\tab 12\tab\kerning0 TrackpadTappingCorners (Yes/No) :\b0  Enables/Disables corner taps.\par
+\kerning1\b\tab 13\tab\kerning0 DisableBottomCornersTap (Yes/No) :\b0  Enables/Disables only bottom corner taps when Corner taps are enabled.\par
+\kerning1\b\tab 14\tab\kerning0 CornerTapStartABS (Yes/No) :\b0  Want to start pointer from absolute position of the touch after corner tap instead of reset to center of the screen ?\par
+\kerning1\b\tab 15\tab\kerning0 CornerTapAreaHeight (Value 0 - 100) :\b0  Sets the % of the touchpad area used for the height of the corner detect area.\par
+\kerning1\b\tab 16\tab\kerning0 CornerTapAreaLength (Value 0 - 100) : \b0 Sets the % of the touchpad area used for the length of the corner detect area.\par
+
+\pard\~\par
+\cf4\ul\b\i Note for 2 and 3 fingers tap:\ulnone\b0  \cf3 You can swap Two and Three finger single taps action in Trackpad prefpane by enabling/disabling the option \b "Tap trackpad using two fingers for secondary click"\b0 .\i0\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf4\ul\b Note for Multi finger double taps:\ulnone  \cf3\b0 Enabling the option\~\b "MulFingDoubleTaps" \b0 in plist will make multi fingers single tap to have some delay due to the detection of double taps.\par
+\par
+\par
+\cf7\b\fs32 3. DRAGGING\cf3\b0\fs28\par
+
+\pard\~\par
+Need to enable the option \b "Dragging"\b0  in Trackpad prefpane from System preferences for dragging to work.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Left button drag :\cf3\b0\i0\~Click & Hold the left button then drag with another finger.\par
+{\pntext\f10\'B7\tab}\cf8\b\i Double tap drag :\~\cf3\b0\i0 Double tap and hold a single finger without lifting then move to drag.\par
+{\pntext\f10\'B7\tab}\cf8\b\i Finger press drag :\cf3\b0\i0\~Tap and hold a single finger with some pressure for 1.2 secs without lifting\~then move to drag.\~\par
+{\pntext\f10\'B7\tab}\cf8\b\i Click drag (ClickPad):\cf3\b0\i0\~Click and hold the button under the whole touchpad area of click-pad then move to drag.\par
+
+\pard\fi-56\li56\ri776\sa56\cf4\ul\b Note for finger press drag:\ulnone\~\cf3\b0\~If you want to disable this drag then set the value of "\b FingerPressDragTimeOut"\~\b0 to 0.\par
+
+\pard\~\par
+
+\pard\fi-56\li56\ri776\sa56\b You can release drag in three ways:\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Finger lift to release\cf3\b0\par
+
+\pard Drag will be released immediately after the finger is removed from the touchpad.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Timeout to release\cf3\b0\par
+
+\pard Drag will be released after a timeout. You can set timeout value by editing plist entry "\b FLiftDragReleaseTimeOut\i ".\b0\i0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Tap to release\cf3\b0\par
+
+\pard Drag will be released after a single tap. You can enable this from the Trackpad prefpane by enabling option "Drag Lock".\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can control dragging with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Dragging\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 FingerPressDrag (Yes/No) :\b0\~Enables/Disables finger press drag.\par
+\kerning1\b\tab 2\tab\kerning0 FingerPressDragPressure (Value 0 - 255) :\b0  Sets the pressure needed to detect the touch as finger press drag.\par
+\kerning1\b\tab 3\tab\kerning0 FingerPressDragTimeOut (Value 0 - 3000) :\b0  Sets the time (in milli sec) needed to to start the finger press drag.\par
+\kerning1\b\tab 4\tab\kerning0 FLiftDragReleaseTimeOut (Value 0 - 3000) :\b0  Sets the time (in milli sec) used to release the drag after removing finger from touchpad.\par
+
+\pard\fi-56\li56\ri776\sa56\cf5\par
+\cf7\b\fs32 4. SCROLLING\cf3\b0\fs28\par
+
+\pard\~\par
+Need to enable the options \b "Use two finger to scroll"\b0  and \b "Allow horizontal scrolling"\b0  in Trackpad prefpane for enabling scrolling.\par
+
+\pard\fi-56\li56\ri776\sa56\cf4\b\i Note:\b0\~You have to change the Scroll speed value from the Trackpad pref for the first time after installing the driver to work.\cf3\i0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf2\b\i Two Finger scroll:\b0\i0\~\cf3\par
+{\pntext\f10\'B7\tab}Swipe two fingers either horizontally for horizontal scroll (or) vertically for vertical scroll.\par
+{\pntext\f10\'B7\tab}\cf2\b\i Edge Scrolling:\b0\i0\~\cf3\par
+{\pntext\f10\'B7\tab}Swipe one finger vertically on the right edge of the touchpad for vertical scrolling and\~horizontally on the bottom edge of the touchpad for horizontal scrolling.\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\b Scroll Acceleration modes: (v3.8 or later)\cf3\b0\par
+
+\pard There are four modes of acceleration for scrolling in my driver, which can be set by editing the plist entry \b\i "\i0 2FScrollAccelMode\i " \b0 for 2f scroll and "\b\i0 EdgeScrollAccelMode"\b0  for Edge scroll.\par
+They are:\par
+
+\pard\fi-720\li720\tx220\tx720\cf5\kerning1\tab 1\tab\kerning0 Optimized Acceleration (mode 0)\cf3  : This is optimized mode which works best across all the touchpads same.\par
+\cf5\kerning1\tab 2\tab\kerning0 Fixed acceleration (mode 1\cf3 ) : This mode has fixed acceleration/speed and varies only with scroll speed value.\par
+\cf5\kerning1\tab 3\tab\kerning0 Extended acceleration (mode 2)\cf3  : Its an extended version of optimized mode with more acceleration.\par
+\cf5\kerning1\tab 4\tab\kerning0 Super acceleration (mode 3)\cf3  : This mode reflects the acceleration of your fingers and works based on that. It doesn't depend on scroll speed values from Trackpad prefpane but you can use it extend the speed even more for high resolution touch pads.\par
+\cf5\kerning1\tab 5\tab\kerning0 Super Extended acceleration (mode 4)\cf3  : This is same as mode 3 but extends the acceleration.\par
+
+\pard\cf4\b NOTE: Additional controls\cf3\b0\par
+
+\pard\fi-56\li56\ri776\sa56\cf4 Hold \cf3\b "Left shift"\cf4\b0  Key for reversing the direction of the scroll\cf3\par
+\cf4 Hold \cf3\b "Command + Control"\b0  \cf4 keys to speed up the scroll 2x\cf3\par
+\cf4 Hold\~\cf3\b "Command + Option"\cf4\b0\~keys for Auto scroll (as alt function) when both Inertia (primary function) and Auto scroll are enabled.\cf3\par
+
+\pard\~\par
+\cf10\b SCROLL EFFECTS\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Auto scroll:\cf3\b0\par
+
+\pard\fi-56\li56\ri776\sa56\b\~ \~ \~ \~ \b0 Use the finger(s) to flick (doing a quick swipe and removing the fingers from touchpad) for scrolling in the direction you want to get \~ \par
+
+\pard\~ \~ \~ \~ \~the\~auto scroll\~(speed depends on the flick strength)\b .\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Continuous scroll:\cf3\b0\par
+
+\pard Scroll the direction you want and hold the finger(s) firmly to get the continuous scroll in the direction you've scrolled.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Inertial scroll:\cf3\b0\par
+
+\pard Use the finger(s) to flick\~(doing a quick swipe and removing the fingers from touchpad)\~for scrolling in the direction you want to get inertial effect (speed and motion depends on the flick strength).\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Sling scroll:\cf3\b0\par
+
+\pard Do the vertical scroll and hold the fingers at the very top/bottom of the touchpad between 1-2 secs then release,\~which will do scroll in reverse direction quickly to scroll back.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Circular scroll with Edge scrolling:\cf3\b0\par
+
+\pard Start the gesture on the edge and do some scroll before moving the finger to the center of the touchpad, now try to draw a circle around the center of the touchpad which will do scrolling continuously as long as you draw the circle in clockwise (or) anti-clockwise for either horizontal or vertical scroll.\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can control scrolling with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Scrolling\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 2FScrollAccelMode (Value 0 - 5) :\b0\~Sets the acceleration mode to use for 2 fingers scroll.\par
+\kerning1\b\tab 2\tab\kerning0 Inertial2FingScroll (Yes/No) :\b0  Enables/Disables Inertia for 2 fingers scroll.\par
+\kerning1\b\tab 3\tab\kerning0 Continuous2FingScroll\~(Yes/No) :\b0\~Enables/Disables continuous for 2 fingers scroll.\par
+\kerning1\b\tab 4\tab\kerning0 Auto2FingScroll\~(Yes/No) :\b0\~Enables/Disables auto for 2 fingers scroll.\par
+\kerning1\b\tab 5\tab\kerning0 Sling2FingScroll\~(Yes/No) :\b0\~Enables/Disables sling for edge scroll.\par
+\kerning1\b\tab 6\tab\kerning0 2FContScrollMaxDelta (Value 0 - 200) :\b0  Sets the max delta allowed to trigger continuous scroll.\par
+
+\pard\~\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 EdgeScrolling\~(Yes/No) :\b0\~Enables/Disables edge scroll.\par
+\kerning1\b\tab 2\tab\kerning0 EdgeScrollAccelMode (Value 0 -5) :\b0\~Sets the acceleration mode to use for edge scroll.\par
+\kerning1\b\tab 3\tab\kerning0 InertialEdgeScroll (Yes/No) :\b0\~Enables/Disables Inertia for edge scroll.\par
+\kerning1\b\tab 4\tab\kerning0 ContinuousEdgeScroll\~(Yes/No) :\b0\~Enables/Disables\~continuous\~for edge scroll.\par
+\kerning1\b\tab 5\tab\kerning0 AutoEdgeScroll\~(Yes/No) :\b0\~Enables/Disables\~auto\~for edge scroll.\par
+\kerning1\b\tab 6\tab\kerning0 SlingEdgeScroll\~(Yes/No) :\b0\~Enables/Disables sling\~for edge scroll.\par
+\kerning1\b\tab 7\tab\kerning0 EContScrollMaxDelta\~(Value 0 - 200) :\b0\~Sets the max delta allowed to trigger continuous scroll.\par
+\kerning1\b\tab 8\tab\kerning0 EdgeVScrollArea\~(Value 0 - 100) :\b0\~Sets the % of touchpad area on the bottom allowed to detect vertical edge scroll.\par
+\kerning1\b\tab 9\tab\kerning0 EdgeVScrollAdaptArea\~(Value 0 - 100) :\b0\~Sets extra % of touchpad area on the right allowed to extend vertical edge scroll to use when its active.\par
+\kerning1\b\tab 10\tab\kerning0 EdgeHScrollArea\~(Value 0 - 100) :\b0\~Sets the % of touchpad area on the bottom allowed to detect horizontal edge scroll.\par
+\kerning1\b\tab 11\tab\kerning0 EdgeHScrollAdaptArea\~(Value 0 - 100) :\b0\~Sets extra % of touchpad area on the right allowed to extend\~horizontal\~edge scroll to use when its active.\par
+\kerning1\b\tab 12\tab\kerning0 EScrolSpeedFactor\~(Value 0 - 1000) :\b0\~Sets the % of the speed multiplier for edge scroll.\par
+\kerning1\b\tab 13\tab\kerning0 EdgeCircularScroll\~(Yes/No) :\b0\~Enables/Disables\~circular for edge scroll.\par
+\kerning1\b\tab 14\tab\kerning0 EdgeCircularScrollDelta\~(Value 0 - 100) :\b0\~Sets the delta needed to trigger circular scroll.\par
+
+\pard\~\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 NoInertiaForHScroll\~(Yes/No) :\~\b0 Disables inertia for horizontal scroll.\par
+\kerning1\b\tab 2\tab\kerning0 InertialScrollLevel\~(Value 0 - 10) :\b0\~Sets the level of inertia. Higher the more inertia.\par
+\kerning1\b\tab 3\tab\kerning0 ScrollDirectionSamples\~(Value 0 - 10) :\b0\~Sets the number of samples are used to analyze the direction of scroll to change.\par
+\kerning1\b\tab 4\tab\kerning0 ScrollLevelAtBoot\~(Value 0 - 9) :\b0\~Sets the scroll speed level to use at boot. This is meant for those who need scroll level greater than 6 at boot, because there is a bug in OSX prefpane which is not saving the speed level above 6. Value 0 disables this and will try to load prefpane value at boot.\par
+\kerning1\b\tab 5\tab\kerning0 ScrollLevelFactor\~(Value 0 - 10) :\b0\~Sets the scroll speed multiplier.\~This will increase the speed levels of prefpane by multiplying.\par
+\kerning1\b\tab 6\tab\kerning0 ScrollLevelGranularity\~(Value 0 - 100) :\b0\~Sets the granularity of the scroll speed to get precise scroll levels.\~This will provide more control over the scroll speed by multiplying against the value we get from the combination of ScrollLevelFactor and Prefpane scroll speed. Default value is 70% of the value we get from\~ScrollLevelFactor and Prefpane scroll speed.\par
+\kerning1\b\tab 7\tab\kerning0 ScrollStopDetectSamples\~(Value 0 - 10) :\b0\~Sets the number of samples used to detect scroll stop. This is useful in touchpad which generate noise data due to its high sensitivity during idle or slow scrolls.\par
+\kerning1\b\tab 8\tab\kerning0 ScrollMaxIdleStateDelta\~(Value 0 - 100) :\b0\~Sets the max delta allowed to detect idle state after scroll in touchpad which generate noise data due to high sensitivity.\par
+\kerning1\b\tab 9\tab\kerning0 ScrollMaxIdleDetectTimeout\~(Value 0 - 100) :\b0\~Sets the max time (in milli sec) used in detecting idle state after scroll.\par
+\kerning1\b\tab 10\tab\kerning0 SlingTriggerArea\~(Value 0 - 100) :\b0\~Sets the % of touchpad area used at top and bottom to trigger sling scroll.\par
+\kerning1\b\tab 11\tab\kerning0 SlingScrollStartTimeOut\~(Value 0 - 3000) :\b0\~Sets the idle time (time spent) needed at trigger area to trigger sling scroll.\par
+
+\pard\tx560\cf5\par
+
+\pard\fi-56\li56\ri776\sa56\cf7\b\fs32 5. SWIPES\cf3\b0\fs28\par
+
+\pard\~\par
+Performing swipe gesture triggers the functions configured to them. The functions can be configured by editing plist file with the value from the the available \b "Supported OS X action values to config gestures"\b0  list above.\par
+\~\par
+\cf8\b Three Fingers:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b\i\fs26 Swipe Left and Right:\i0\par
+{\pntext\f10\'B7\tab}\~\b0\fs28 Performs backward and forward functions in Browser, Finder and others. \cf4 (ISO keyboards need keyboard layout config in keyboard plist)\cf3\par
+{\pntext\f10\'B7\tab}\b\i\fs26 Swipe Down:\b0\i0\fs28\~Performs Application switch\par
+{\pntext\f10\'B7\tab}\b\i\fs26 Swipe Up:\b0\i0\fs28\~Opens Launchpad\par
+
+\pard\cf8\b Four Fingers:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b\i Swipe Left:\~\b0\i0 Hide/show Dock\par
+{\pntext\f10\'B7\tab}\b\i\fs26 Swipe Right:\b0\i0\fs28\~Shows Properties/info for the selected file/folder\par
+{\pntext\f10\'B7\tab}\b\i Swipe Down :\b0\i0\~Minimize app\par
+{\pntext\f10\'B7\tab}\b\i Swipe Up:\b0\i0\~Close App\par
+
+\pard\~\par
+\cf8\b Edges:\cf3\b0\par
+Its is performed using one (or) two finger(s) by swiping from the edge of the touchpad to the middle (Swipe IN)\~\par
+
+\pard\fi-56\li56\ri776\sa56 (or) middle of the touchpad to the edge (Swipe OUT). And Swipe OUT works only after swipe IN in reverse without finger lift.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf2\b\i Left Edge Swipe:\cf3\b0\i0\par
+{\pntext\f10\'B7\tab}Performs Left and Right Desktop/App Switch for IN and OUT swipes (Apps will switch only when they are in Full Screen).\par
+{\pntext\f10\'B7\tab}\cf2\b\i Right Edge Swipe:\cf3\b0\i0\par
+{\pntext\f10\'B7\tab}Opens (Swipe IN) and Closes (Swipe OUT) Notification centre.\par
+{\pntext\f10\'B7\tab}\cf2\b\i Bottom Edge Swipe:\cf3\b0\i0\par
+{\pntext\f10\'B7\tab}Default disabled.\par
+{\pntext\f10\'B7\tab}\cf2\b\i Top Edge Swipe:\cf3\b0\i0\par
+{\pntext\f10\'B7\tab}Toggles full\~screen.\par
+
+\pard\~\par
+\cf4\b NOTE for NC (soft mode):\~\cf3\b0\i From10.8\~or later in Full screen and 10.7,\~NC (soft mode) works as Spotlight. So,\~\ul Hold \b Shift key\ulnone\b0  and do the gesture from 10.8 (or) later to get NC working in Full screen.\i0\par
+\~\par
+\cf8\b Assign Keyboard shortcut to Notification center function from 10.8 or later instead of using Soft mode:\cf3\b0\par
+Assign key combination\b\~(Command + Shift + N)\b0\~to Notification centre shortcut at Keyboard Preferences as shown below in picture to get this working using the function value 14.\par
+{{\field{\*\fldinst{HYPERLINK "http://www.flickr.com/photos/93076670@N04/9718452526/"}}{\fldrslt{\ul\cf1\cf9 9718452526_b6414cd8e7_n.jpg \'ac}}}}\f1\fs28\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can control swipes with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Swiping\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 3FingerSwipeDownAction (Value 0 - 23) :\b0\~Sets the action triggered by the 3 fingers swipe down.\par
+\kerning1\b\tab 2\tab\kerning0 3FingerSwipeLeftAction\~(Value 0 - 23) :\b0\~Sets the action triggered by the 3 fingers swipe left.\par
+\kerning1\b\tab 3\tab\kerning0 3FingerSwipeRightAction\~(Value 0 - 23) :\b0\~Sets the action triggered by the 3 fingers swipe right.\par
+\kerning1\b\tab 4\tab\kerning0 3FingerSwipeUpAction\~(Value 0 - 23) :\b0\~Sets the action triggered by the 3 fingers swipe up.\par
+\kerning1\b\tab 5\tab\kerning0 4FingerSwipeDownAction\~(Value 0 - 23) :\b0\~Sets the action triggered by the 4 fingers swipe down.\par
+\kerning1\b\tab 6\tab\kerning0 4FingerSwipeLeftAction\~(Value 0 - 23) :\b0\~Sets the action triggered by the 4 fingers swipe down.\par
+\kerning1\b\tab 7\tab\kerning0 4FingerSwipeRightAction\~(Value 0 - 23) :\b0\~Sets the action triggered by the 4 fingers swipe down.\par
+\kerning1\b\tab 8\tab\kerning0 4FingerSwipeUpAction\~(Value 0 - 23) :\b0\~Sets the action triggered by the 4 fingers swipe down.\par
+\kerning1\b\tab 9\tab\kerning0 3FingerSwipes\~(Yes/No) :\b0\~Enables/Disables 3 fingers swipes.\par
+\kerning1\b\tab 10\tab\kerning0 4FingerSwipes\~(Yes/No) :\b0\~Enables/Disables 4 fingers swipes.\par
+\kerning1\b\tab 11\tab\kerning0 MultiFingerSwipesDeltaX\~(Value 0 - 500) :\b0\~Sets the X delta (movement)\~needed to detect 3F and 4F swipes.\par
+\kerning1\b\tab 12\tab\kerning0 MultiFingerSwipesDeltaX\~(Value 0 - 500) :\b0\~Sets the Y delta (movement)\~needed to detect 3F and 4F swipes.\par
+
+\pard\~\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 EdgeSwipeBottom (Value 0 - 23) :\b0\~Sets the action triggered by the bottom edge swipe.\par
+\kerning1\b\tab 2\tab\kerning0 EdgeSwipeLeft (Value 0 - 23) :\b0\~Sets the action triggered by the left edge swipe.\par
+\kerning1\b\tab 3\tab\kerning0 EdgeSwipeRight (Value 0 - 23) :\b0\~Sets the action triggered by the right edge swipe\par
+\kerning1\b\tab 4\tab\kerning0 EdgeSwipeTop (Value 0 - 23) :\b0\~Sets the action triggered by the top edge swipe\par
+\kerning1\b\tab 5\tab\kerning0 EdgeSwipes\~(Yes/No) :\b0\~Enables/Disables edge swipes.\par
+\kerning1\b\tab 6\tab\kerning0 EdgeSwipes2Ways\~(Yes/No) :\b0\~Enables/Disables 2 ways edge swipes. It allows swipes to be triggered in both ways either we start from center to edge or from edge to center instead of starting only from edge to center.\par
+\kerning1\b\tab 7\tab\kerning0 EdgeSwipesResetPointer\~(Yes/No) :\b0\~Want to reset the pointer to center of the screen after edge swipe ?.\par
+\kerning1\b\tab 8\tab\kerning0 EdgeSwipeFingers\~(Value 0 - 2) :\b0\~Sets the number of fingers are used in edge swipes. 0 is for both 1f and 2f.\par
+\kerning1\b\tab 9\tab\kerning0 EdgeSwipeDetectHArea\~(Value 0 - 100) :\b0\~Sets the % of touchpad area on edges allowed to detect start of horizontal (left and right) edge swipes.\par
+\kerning1\b\tab 10\tab\kerning0 EdgeSwipeDetectVArea\~(Value 0 - 100) :\b0\~Sets the % of touchpad area on edges allowed to detect start of vertical(top and bottom) edge swipes.\par
+\kerning1\b\tab 11\tab\kerning0 EdgeSwipeDeltaX\~(Value 0 - 500) :\b0\~Sets the X delta (movement) needed to detect edge swipes.\par
+\kerning1\b\tab 12\tab\kerning0 EdgeSwipeDeltaY\~(Value 0 - 500) :\b0\~Sets the Y delta (movement)\~needed to detect edge swipes.\par
+
+\pard\tx560\cf5\par
+\par
+
+\pard\cf7\b 6. ZOOM\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Two Fingers Pinch Zoom :\cf3\b0\i0\par
+
+\pard Spreading and pinching two fingers triggers zoom in and out in single step when fingers are removed from touchpad after the gesture.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i OS X Zooming using Keyboard Button and 2F Vertical swipe :\cf3\b0\i0\par
+
+\pard Hold the key chosen from the Trackpad prefpane and swipe two fingers vertically to zoom OS X.\~You can select the key in Trackpad prefpane option at System preferences from the option \~\b "Zoom while holding"\b0 .\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b Four/Five fingers Pinch Gesture like Apple\~touchpads\~(Only for the touchpad with 5 fingers support)\i  :\cf3\b0\i0\par
+
+\pard Opens launchpad.\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can configure zoom with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Others\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 PinchZoom (Yes/No) :\b0\~Enables/Disables zoom feature.\par
+\kerning1\b\tab 2\tab\kerning0 PinchZoomDelta (Value 0 - 500) :\b0\~Sets the delta needed to trigger zoom.\~\par
+\kerning1\b\tab 3\tab\kerning0 PinchRotateMinSamples\~(Value 0 - 10) :\b0\~Sets the\~minimum number of samples needed to detect zoom.\~\par
+
+\pard\tx560\cf5\par
+\par
+
+\pard\fi-56\li56\ri776\sa56\cf7\b\fs32 7. ROTATION\cf3\b0\fs28\par
+
+\pard\~\par
+Rotation works on photos to rotate them and in browser to reload page. We can do rotate in three ways:\par
+\~\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Arc Rotation :\~\cf3\b0\i0\par
+
+\pard Place a finger on the touchpad in a fixed position either at Left (or) Right corner and draw an arc at the corner opposite to the fixed finger position using second finger. Left arc does left rotate and right arc does right rotate.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Swipe Rotation :\cf3\b0\i0\par
+
+\pard Place a finger on the touchpad in a fixed position at middle of the touchpad vertically and swipe the second finger from up to down for rotating Right or from down to up for rotating left.\par
+Place a finger on the touchpad in a fixed position at middle of the touchpad horizontally and swipe the second finger from left to right for rotating Right or from right to left for rotating left.\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Circular Rotation :\cf3\b0\i0\~(Only for ELAN v3 hardware)\par
+
+\pard Place two fingers on the touchpad vertically and move them to right horizontal position to rotate right.\par
+Place two fingers on the touchpad horizontally and move them to left vertical position to rotate left.\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can configure rotation with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Others\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 Rotation (Yes/No) :\b0\~Enables/Disables rotate feature.\par
+\kerning1\b\tab 2\tab\kerning0 CircularRotate\~(Yes/No) :\b0\~Enables/Disables circular rotate feature.\par
+\kerning1\b\tab 3\tab\kerning0 RotationDelta (Value 0 - 500) :\b0\~Sets the delta (movement) needed from moving finger to trigger rotate.\~\par
+\kerning1\b\tab 4\tab\kerning0 RotationMaxCFDelta\~(Value 0 - 500) :\b0\~Sets the max delta (movement) allowed for the fixed finger in detecting rotate. Some high sensitive touchpad might need higher values to work better.\par
+\kerning1\b\tab 5\tab\kerning0 PinchRotateMinSamples\~(Value 0 - 10) :\b0\~Sets the\~minimum number of samples needed to detect rotate.\~\par
+
+\pard\cf4\b NOTE: \cf3 I did my best to get this working as much as possible and works very well if you do the gesture like i explained.\~And y\i ou have to keep the first finger on the touchpad for 1-2 secs before rotating with other\~finger which\~I've used to avoid conflicts with other features. Will try to improve this in future as far as possible.\par
+\par
+\par
+
+\pard\fi-56\li56\ri776\sa56\cf7\i0\fs32 8. CLICKING AND FINGERS PRESS\cf3\b0\fs28\par
+
+\pard To perform Fingers press, Tap and hold your finger(s) firmly with some pressure on the touchpad for 2-3 seconds.\par
+To perform clicking, press the button under the touchpad in click-pad.\par
+\~\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Single finger Click/Press:\~\cf3 (Finger press drag)\b0\i0\par
+
+\pard Does dragging\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Two Fingers Click/Press:\b0\i0\~\cf3\par
+
+\pard Default it does zoom reset.\~It can configured to other actions by editing plist with supported gesture actions value.\~\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Three Fingers Click/Press:\cf3\b0\i0\par
+
+\pard Opens Finder window (or) Changes Language if you have more than one input source. You can change this to Finder/other from keyboard shortcuts for the shortcut \b "Command + Space"\b0 .\~It can configured to other actions by editing plist with supported gesture actions value.\~\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Four Fingers Click/Press:\cf3\b0\i0\par
+
+\pard Opens Force quit window by default.\~It can configured to other actions by editing plist with supported gesture actions value.\~\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\cf8\b\i Five Fingers Click/Press:\cf3\b0\i0\par
+
+\pard Shows Desktop by default.\~It can configured to other actions by editing plist with supported gesture actions value.\~\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can configure taps with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Tapping\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 2FingersPressAction (Value 0 -23) :\b0\~Sets the action to be triggered on two fingers press.\~\par
+\kerning1\b\tab 2\tab\kerning0 3FingersPressAction\~(Value 0 -23) :\b0\~Sets the action to be triggered on three fingers\~press.\~\par
+\kerning1\b\tab 3\tab\kerning0 4FingersPressAction\~(Value 0 -23) :\b0\~Sets the action to be triggered on four fingers\~press.\~\par
+\kerning1\b\tab 4\tab\kerning0 5FingersPressAction\~(Value 0 -23) :\b0\~Sets the action to be triggered on five fingers\~press.\~\par
+\kerning1\b\tab 5\tab\kerning0 FingersPressTimeOut\~(Value 0 -3000) :\b0\~Sets the time needed (after timeout) to trigger finger press.\~\par
+
+\pard\tx560\cf5\par
+
+\pard\fi-56\li56\ri776\sa56\cf7\b\fs32 9. FEATURES TOGGLE\cf3\b0\fs28\par
+
+\pard I implemented this feature in order to enable/disable some of the features on the fly using gestures, which cannot be enabled/disabled from Trackpad prefpane.\par
+\~\par
+To perform this toggle, you have to Hold \cf1 "Left Shift Key" \cf3 in Keyboard and then \cf1 "Swipe with three fingers"\cf3  (or) \cf1 "tap 2/3/4 fingers quickly"\cf3  (or) \cf1 "press and hold 2/3/4 fingers firmly"\cf3  to enable/disable the features.\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf4\ul\b Indicator:\cf3\ulnone\b0\par
+
+\pard On performing this toggle, the pointer will move a bit Up/Down/Left/Right which indicates the feature is toggled. \i If the \b pointer\b0  \b moved\b0  \b Up/Right direction\b0  then its \b turned on\b0 , if \b moved\b0  \b Left/Down direction\b0  then its \b turned off\b0 .\i0\par
+\~\par
+\cf8\b Three Fingers swipe toggles:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b\i Down :\b0  Toggles\i0\~Edge Swiping.\par
+{\pntext\f10\'B7\tab}\b\i Up :\~\b0\i0 Toggles Corner Tapping.\par
+{\pntext\f10\'B7\tab}\b\i Left :\b0\i0\~Toggles Pinch zoom.\par
+{\pntext\f10\'B7\tab}\b\i Right :\~\b0\i0 Toggles Rotations.\par
+
+\pard\~\par
+\cf8\b Two Fingers Tapping:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b\i Two Times :\b0\i0\~Toggles Edge scrolling.\par
+{\pntext\f10\'B7\tab}\b\i Three Times :\~\b0\i0 Toggles Edge circular scrolling.\par
+
+\pard\cf8\b Three Fingers Tapping:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b\i Two Times :\b0\i0\~Toggles scroll acceleration modes.\par
+{\pntext\f10\'B7\tab}\b\i Three Times :\~\b0\i0 Toggles pointer acceleration value from 0 - 20.\par
+
+\pard\cf8\b Four Fingers Tapping:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b\i Two Times :\b0\i0\~Toggles virtual buttons mode.\par
+
+\pard\~\par
+\cf8\b Two Fingers Press:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720 Toggles two finger press\par
+
+\pard\cf8\b Three Fingers Press:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720 Toggles three finger press\par
+
+\pard\cf8\b Four Fingers Press:\~\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720 Toggles four finger press.\par
+
+\pard\tx560\cf5\par
+\par
+
+\pard\fi-56\li56\ri776\sa56\cf7\b\fs32 0. ACCIDENTAL INPUT PREVENTION AND PALM DETECTION\cf3\b0\fs28\par
+
+\pard\~\par
+\cf8\b ACCIDENTAL INPUT:\cf3\b0\par
+You can prevent accidental inputs that happen from the touchpad when you are typing by enabling the Option "\b Ignore accidental input" \b0 in Trackpad prefpane at System preferences.\~\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf8\ul\b Customization:\cf3\ulnone\b0\par
+
+\pard You can configure accidental input with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Keyboard\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 TriggerAccInputForKeyPressCount (Value 0 - 10) :\b0\~Sets the number of key presses needed to trigger accidental input.\~\par
+\kerning1\b\tab 2\tab\kerning0 TimeOutEnablesTPadAfterAccInput\~(Value 0 - 5000) :\b0\~Sets the timeout for enabling the touchpad back when it was disabled for accidental input.\par
+\kerning1\b\tab 3\tab\kerning0 TapEnablesTPadFromAccInput (Yes/No) :\b0\~Allows to enables touchpad back when it was disabled by accidental input using a single finger tap gesture instead of waiting for timeout.\par
+
+\pard\cf8\b PALM DETECTION:\cf3\b0\par
+You can also enable/disable Palm detection which can be customized for the pressure and width of the palm by editing plist options from "\b Others\b0 " section of the touchpad plist. Default its enabled and configured to the best values found by the testers in beta testing. If you have problem disable this and PM me for support.\par
+\~\par
+\cf8\ul\b Customization:\cf3\ulnone\b0\par
+You can configure palm detection with the following plist options.\~Located at\~\b IOKitPersonalities->Smart-Pad->Preferences->Others\b0\~in the plist.\par
+
+\pard\fi-720\li720\tx220\tx720\kerning1\b\tab 1\tab\kerning0 PalmDetection (Yes/No) :\b0\~Enables/Disables palm detection.\par
+\kerning1\b\tab 2\tab\kerning0 PalmCheckMinPressure\~(Value 0 - 255) :\b0\~Sets the minimum pressure needed to identify the touch as palm.\~\par
+\kerning1\b\tab 3\tab\kerning0 PalmCheckMinWidth\~(Value 0 - 15) :\b0\~Sets the minimum width needed to identify the touch as palm.\~\par
+
+\pard\tx560\cf5\par
+\par
+
+\pard\fi-56\li56\ri776\sa56\cf7\b\fs32 12. CUSTOMIZATION OF FEATURES\cf3\b0\fs28\par
+
+\pard\~\par
+We can customize the touchpad features by the editing \cf7 "info.plist"\cf3  file located inside the kext (\cf7 ApplePS2SmpartTouchpad.kext/Contents/\cf3 ).\~In the plist, go to the section \cf7 "IOKitPersonalities->Smart-Pad->Preferences"\cf3  and edit the value of the feature like you want.\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf4\b NOTE: You need to install the kext again after editing the plist.\~\cf3\b0\par
+\cf4 Values for boolean controlled features:\~\ul Yes/No if you use Xcode/Plist editor\ulnone\~(or)\cf3\par
+
+\pard\cf4\ul true/false if you use Text editor\ulnone\~for editing the plist.\cf3\par
+\~\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b SleepInitDelay:\b0\~Sets the delay after sleep before enabling the touchpad. Its needed for some touchpads as they fail if we try to enable immediately after sleep because they might be not ready yet. Default value is 1500 ms.\par
+
+\pard\cf8\b BUTTONS:\cf3\b0\par
+Read here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32284"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #2 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+\~\par
+\cf8\b POINTER:\cf3\b0\par
+Read here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32284"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #2 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+\~\par
+\cf8\b DRAGGING:\cf3\b0\par
+Read here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32286"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #4 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+\~\par
+\cf8\b SCROLLING:\cf3\b0\par
+Read here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32287"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #5 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+\~\par
+\cf8\b SWIPING:\cf3\b0\par
+Read here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32288"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #6 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+\~\par
+\cf8\b TAPPING:\cf3\b0\par
+Read here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32285"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #3 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+\~\par
+\cf8\b FINGERS PRESS:\cf3\b0\par
+Read here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32291"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #9 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+\~\par
+\cf8\b MOUSE:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b Resolution (Value 0 - 3) :\b0  Sets the mouse resolution for basic mouse mode (or useful in unsupported touchpad).\par
+{\pntext\f10\'B7\tab}\b SampleRate (Value 10, 20, 40, 60, 80, 100, 200) :\b0\~Sets the mouse sample for basic mouse mode\~(or useful in unsupported touchpad).\par
+{\pntext\f10\'B7\tab}\b Scaling (Value 0 - x) :\~\b0 Sets the mouse scaling for basic mouse mode (or useful in unsupported touchpad).\par
+
+\pard\~\par
+\cf8\b OTHERS:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b DisableTPadOnLIDClose (Yes/No) :\b0  Disable touchpad when laptop lid is closed ?\par
+{\pntext\f10\'B7\tab}\b TPadStatusCheckPollRate (Value 0 - 60000):\b0  Sets the poll rate (in milli sec) for checking the status of the touchpad for Fn key disable in Asus.\~\par
+{\pntext\f10\'B7\tab}\b MaxTouchEndPressure (Value 0 - 255) :\b0  Sets the max pressure used to detect the end of the touch.\par
+{\pntext\f10\'B7\tab}\b MaxTouchEndDelta (Value 0 - 200) :\~\b0 Sets the max delta used to detect the end of the touch.\par
+
+\pard Read more here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32289"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #7 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+Read more here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/#entry32290"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #8 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+Read more here :\~{{\field{\*\fldinst{HYPERLINK "http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/page-2#entry32293"}}{\fldrslt{\ul\cf1\cf9\ul\~ \~ \~ \~ \~ \~ #11 \~ \~ \~ \~ \~ \~}}}}\f1\fs28\par
+\~\par
+\cf8\b KEYBOARD:\cf3\b0\par
+
+\pard{\pntext\f10\'B7\tab}{\*\pn\pnlvlblt\pnf10\pnindent0{\pntxtb\'B7}}\fi-720\li720\tx220\tx720\b EnableAsusKBacklightSupport \b0 - Enable Asus Keyboard backlight support?\~\ul Default:\ulnone\~Disabled\par
+{\pntext\f10\'B7\tab}\b AsusKBacklightHas16Levels \b0 - Asus keyboard backlight has 16 levels support?\~\ul Default:\ulnone\~Disabled\par
+{\pntext\f10\'B7\tab}\b\i EnableAsusKBacklightAutoOff -\b0\i0\~ Enable Idle keyboard backlight on/off?\~\ul Default:\ulnone\~Disabled\par
+{\pntext\f10\'B7\tab}\b\i AsusKBacklightAutoOffTimeOut -\b0\i0\~Idle Timeout value for keyboard backlight auto off.\~\ul Default:\ulnone\~10 sec (10000 ms)\par
+
+\pard\tx560\cf5\par
+\par
+
+\pard\fi-56\li56\ri776\sa56\cf7\b\fs36 14. Support for Asus Keyboard backlight with Idle Auto on/off:\cf3\b0\fs28\par
+
+\pard My driver supports Asus keyboard backlight control using Fn keys mode in keyboard and Idle Auto on/off which can be enabled from touchpad plist keyboard section.\par
+\~\par
+\cf4\b Following are the options that controls and enables Asus Keyboard backlight:\cf3\b0\par
+Set the entry\~\cf7 "EnableAsusKBacklightSupport"\cf3\~to Yes for enabling keyboard backlight controls in F3 and F4 by default.\~\par
+Set the entry\~\cf7 "AsusKBacklightHas16Levels"\cf3\~to Yes for enabling 16 keyboard backlight levels.\~\par
+Set the entry \cf7 "EnableAsusKBacklightAutoOff"\cf3  to Yes for enabling keyboard backlight Auto on/off after idle timeout .\par
+Set the entry \cf7 "AsusKBacklightAutoOffTimeOut"\cf3  to your required timeout value in milli seconds for enabling keyboard backlight Auto off after idle timeout. Default timeout is 10 sec (10000ms).\par
+\~\par
+\cf8\b You also need to use the following patches in DSDT:\cf3\b0\par
+\~Add the following methods to your ATKD device section in DSDT (or) use the attached patch files in DSDT editor.\par
+\~\par
+\cf4\b NOTE: Some systems may need additional tweaking depending on their DSDT.\cf3\b0\par
+\cf4\b NOTE 2: Some notebooks might have "\i SBRG"\i0\~instead of "\i LPCB"\i0\~or something different. So, try to check the method \ldblquote SLKB\rdblquote  in your DSDT for the the following line values and modify\~\ldblquote\f8 ^^PCI0.LPCB.EC0.WRAM (0xxxx, Local1)\rdblquote .\cf3\b0\f1\par
+\~\par
+
+\pard\fi-56\li56\ri776\sa56\cf2\b 4 Levels Keyboard backlight:\cf3\b0\par
+\par
+
+\pard\f9\fs26             \cf11 Name\cf3  \cf12 (\cf3 BOFF\cf12 ,\cf3  \cf11 Zero\cf12 )\cf3\par
+            \cf11 Method\cf3  \cf12 (\cf3 SKBL\cf12 ,\cf3  \cf13 1\cf12 ,\cf3  \cf11 NotSerialized\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 Or\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xED\cf12 ),\cf3  \cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xFD\cf12 )))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 And\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xED\cf12 ),\cf3  \cf11 LEqual\cf3  \cf12 (\cf3 BOFF\cf12 ,\cf3  \cf13 0xEA\cf12 )))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Zero\cf12 ,\cf3  \cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Else\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 And\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xFD\cf12 ),\cf3  \cf11 LEqual\cf3  \cf12 (\cf3 BOFF\cf12 ,\cf3  \cf13 0xFA\cf12 )))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Zero\cf12 ,\cf3  \cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Else\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Return\cf3  \cf12 (\cf3 BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 Else\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 Or\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xEA\cf12 ),\cf3  \cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xFA\cf12 )))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf3 KBLV\cf12 ,\cf3  \cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Else\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  KBLV\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 DerefOf\cf3  \cf12 (\cf11 Index\cf3  \cf12 (\cf3 PWKB\cf12 ,\cf3  \cf11 Local0\cf12 )),\cf3  \cf11 Local1\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12 ^^\cf3 PCI0\cf12 .\cf3 LPCB\cf12 .\cf3 EC0\cf12 .\cf3 WRAM \cf12 (\cf13 0x04B1\cf12 ,\cf3  \cf11 Local1\cf12 )\cf3  \cf14 // Haswell/Ivy\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12 ^^\cf3 PCI0\cf12 .\cf3 LPCB\cf12 .\cf3 EC0\cf12 .\cf3 WRAM \cf12 (\cf13 0x044B\cf12 ,\cf3  \cf11 Local1\cf12 )\cf3  \cf14 // Sandy/Ivy\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 Return\cf3  \cf12 (\cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~\par
+\~ \~ \~ \~ \~ \~ \cf11 Method\cf3  \cf12 (\cf3 GKBL\cf12 ,\cf3  \cf13 1\cf12 ,\cf3  \cf11 NotSerialized\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xFF\cf12 ))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Return\cf3  \cf12 (\cf3 BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 Return\cf3  \cf12 (\cf3 KBLV\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\}\cf0\par
+
+\pard\fi-56\li56\ri776\sa56\cf2\b\f1\fs28 16 Levels Keyboard backlight:\cf3\b0\par
+\par
+
+\pard\f9\fs26             \cf11 Name\cf3  \cf12 (\cf3 BOFF\cf12 ,\cf3  \cf11 Zero\cf12 )\cf3\par
+            \cf11 Method\cf3  \cf12 (\cf3 SKBL\cf12 ,\cf3  \cf13 1\cf12 ,\cf3  \cf11 NotSerialized\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 Or\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xED\cf12 ),\cf3  \cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xFD\cf12 )))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 And\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xED\cf12 ),\cf3  \cf11 LEqual\cf3  \cf12 (\cf3 BOFF\cf12 ,\cf3  \cf13 0xEA\cf12 )))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Zero\cf12 ,\cf3  \cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Else\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 And\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xFD\cf12 ),\cf3  \cf11 LEqual\cf3  \cf12 (\cf3 BOFF\cf12 ,\cf3  \cf13 0xFA\cf12 )))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Zero\cf12 ,\cf3  \cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Else\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Return\cf3  \cf12 (\cf3 BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 Else\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 Or\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xEA\cf12 ),\cf3  \cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xFA\cf12 )))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf3 KBLV\cf12 ,\cf3  \cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Else\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  KBLV\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 Store\cf3  \cf12 (\cf11 DerefOf\cf3  \cf12 (\cf11 Index\cf3  \cf12 (\cf3 KBPW\cf12 ,\cf3  \cf11 Local0\cf12 )),\cf3  \cf11 Local1\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12 ^^\cf3 PCI0\cf12 .\cf3 LPCB\cf12 .\cf3 EC0\cf12 .\cf3 WRAM \cf12 (\cf13 0x04B1\cf12 ,\cf3  \cf11 Local1\cf12 )\cf3  \cf14 // Haswell/Ivy\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12 ^^\cf3 PCI0\cf12 .\cf3 LPCB\cf12 .\cf3 EC0\cf12 .\cf3 WRAM \cf12 (\cf13 0x044B\cf12 ,\cf3  \cf11 Local1\cf12 )\cf3  \cf14 // Sandy/Ivy\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 Return\cf3  \cf12 (\cf11 Local0\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~\par
+\~ \~ \~ \~ \~ \~ \cf11 Name\cf3  \cf12 (\cf3 KBPW\cf12 ,\cf3  \cf11 Buffer\cf3  \cf12 (\cf13 0x10\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf14 /* 0000 */\cf3  \~ \cf13 0x00\cf12 ,\cf3  \cf13 0x11\cf12 ,\cf3  \cf13 0x22\cf12 ,\cf3  \cf13 0x33\cf12 ,\cf3  \cf13 0x44\cf12 ,\cf3  \cf13 0x55\cf12 ,\cf3  \cf13 0x66\cf12 ,\cf3  \cf13 0x77\cf12 ,\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf14 /* 0008 */\cf3  \~ \cf13 0x88\cf12 ,\cf3  \cf13 0x99\cf12 ,\cf3  \cf13 0xAA\cf12 ,\cf3  \cf13 0xBB\cf12 ,\cf3  \cf13 0xCC\cf12 ,\cf3  \cf13 0xDD\cf12 ,\cf3  \cf13 0xEE\cf12 ,\cf3  \cf13 0xFF\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\})\cf3\par
+\~ \~ \~ \~ \~ \~ \cf11 Method\cf3  \cf12 (\cf3 GKBL\cf12 ,\cf3  \cf13 1\cf12 ,\cf3  \cf11 NotSerialized\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 If\cf3  \cf12 (\cf11 LEqual\cf3  \cf12 (\cf11 Arg0\cf12 ,\cf3  \cf13 0xFF\cf12 ))\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\{\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \~ \~ \cf11 Return\cf3  \cf12 (\cf3 BOFF\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf12\}\cf3\par
+\~\par
+\~ \~ \~ \~ \~ \~ \~ \~ \cf11 Return\cf3  \cf12 (\cf3 KBLV\cf12 )\cf3\par
+\~ \~ \~ \~ \~ \~ \cf12\}\cf0\par
+
+\pard\tx560\cf5\f1\fs28\par
+\par
+\par
+}
+ 
